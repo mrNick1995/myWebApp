@@ -9,19 +9,13 @@
     <artifactId>mywebapp</artifactId>
     <version>1.0</version>
     <name>My Online Database</name>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>5.2.10.Final</version>
-            <scope>compile</scope>
-        </dependency>
     </dependencies>
 
     <build>
